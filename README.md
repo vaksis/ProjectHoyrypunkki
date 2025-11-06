@@ -7,7 +7,7 @@
 Plans are in backlog.
 
 
-## Authors
+## Developers and contributors
 * **Olivia** - *Software develpmnet, bug fixes, hosting, code review, and continuing development.*
 * **Eliza** - *Software develepment, bug fixes, code review, and continuing development.*
 * **Mantsa** - *Art Software develpment bug fixes, code reviw and continuing development.*
