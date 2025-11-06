@@ -8,7 +8,7 @@ Plans are in backlog.
 
 
 ## Document's and references
-[Link to google drive](https://drive.google.com/drive/folders/16sl9QdgSFqLMfnSmWrFieqHskrH6Ch2v?usp=drive_link)
+[Link to google drive](https://drive.google.com/drive/folders/1GfSWKhMxZZdZ8oRzd5XRnF7uFg40v26v?usp=sharing)
 
 
 ## Developers and contributors
