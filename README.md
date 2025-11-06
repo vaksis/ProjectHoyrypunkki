@@ -7,6 +7,10 @@
 Plans are in backlog.
 
 
+## Document's and references
+[Link to google drive]()
+
+
 ## Developers and contributors
 * **Olivia** - *Software develpmnet, bug fixes, hosting, code review, and continuing development.*
 * **Eliza** - *Software develepment, bug fixes, code review, and continuing development.*
