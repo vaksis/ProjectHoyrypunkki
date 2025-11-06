@@ -68,12 +68,6 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
 
-        //if player falls from the map it returns gameover scene
-        if (rb.transform.position.y < -10)
-        {
-            SceneManager.LoadScene("GameOver");
-        }
-
         //===========MOVEMENT===========
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
         // oikea nuoli = 1, vasen nuoli = -1
@@ -92,14 +86,4 @@ public class PlayerController : MonoBehaviour
         }
 
     }
-
-
-
-    //===========On collision enter 2D===========
-    /*void OnTriggerEnter2D(Collider2D col)
-    {
-
-
-    }*/
-
 }

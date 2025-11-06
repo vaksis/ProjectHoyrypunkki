@@ -175,3 +175,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb8e1ccd9ce88324583def125d522f64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
+  jumpforce: 0
+  moveInput: 0
+  extraJumps: 0
+  isGrounded: 0
+  groundCheck: {fileID: 0}
+  checkRadius: 0
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 0

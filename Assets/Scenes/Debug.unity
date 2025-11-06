@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 1702174164}
   m_Layer: 6
   m_Name: ForeGround
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3229,6 +3229,47 @@ Transform:
   - {fileID: 1702174161}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2021073131 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9091567706452529372, guid: 0f4c3c91fb2e10046b50a0496e20db53, type: 3}
+  m_PrefabInstance: {fileID: 6297319887978239195}
+  m_PrefabAsset: {fileID: 0}
+--- !u!58 &2021073137
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2021073131}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.015866881, y: -0.10445695}
+  m_Radius: 0.057017088
 --- !u!1001 &6297319887978239195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3279,7 +3320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3017222911963580959, guid: 0f4c3c91fb2e10046b50a0496e20db53, type: 3}
       propertyPath: speed
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3017222911963580959, guid: 0f4c3c91fb2e10046b50a0496e20db53, type: 3}
       propertyPath: jumpforce
@@ -3298,9 +3339,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3017222911963580959, guid: 0f4c3c91fb2e10046b50a0496e20db53, type: 3}
+      propertyPath: checkRadius
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3017222911963580959, guid: 0f4c3c91fb2e10046b50a0496e20db53, type: 3}
       propertyPath: groundCheck
       value: 
-      objectReference: {fileID: 1847379643}
+      objectReference: {fileID: 1702174161}
     - target: {fileID: 3017222911963580959, guid: 0f4c3c91fb2e10046b50a0496e20db53, type: 3}
       propertyPath: whatIsGround.m_Bits
       value: 64
@@ -3312,7 +3357,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9091567706452529372, guid: 0f4c3c91fb2e10046b50a0496e20db53, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2021073137}
   m_SourcePrefab: {fileID: 100100000, guid: 0f4c3c91fb2e10046b50a0496e20db53, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
