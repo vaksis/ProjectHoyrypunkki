@@ -8,4 +8,7 @@ Plans are in backlog.
 
 
 ## Authors
-* **Olivia** - *CEO of the project, bug fixes, hosting, code review, and continuing development.*
+* **Olivia** - *Software develpmnet, bug fixes, hosting, code review, and continuing development.*
+* **Eliza** - *Software develepment, bug fixes, code review, and continuing development.*
+* **Mantsa** - *Art Software develpment bug fixes, code reviw and continuing development.*
+* **Ville** - *Music*
